@@ -1,0 +1,164 @@
+html {
+  font-size: 18px;
+  font-family: helvetica;
+
+}
+
+
+/* top of page styling */
+.banner-pic {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tortoiseshell-optics/resources/images/glasses-bg.png);
+  height: 31rem;
+  color: white;
+
+}
+
+.banner-pic .container .nav-bar {
+  background-color: cadetblue;
+  position: fixed;
+  top: 1rem;
+  height: 3rem;
+  width: 960px;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.banner-pic .container .nav-bar .logos {
+  display: flex;
+}
+
+.banner-pic .container .nav-bar .logos img { /* glasses image */
+  max-height: 1.5rem;
+  padding-right: 1rem;
+  padding-left: 2rem;
+
+}
+
+.banner-pic .container .nav-bar .logos span { /* "tortoiseshell optics" */
+  position: relative;
+  top: .25rem;
+}
+
+.banner-pic .container .nav-bar .navigation ul { /* ul nav grouping */
+  display: flex;
+}
+
+.banner-pic .container .nav-bar .navigation ul li {  /* individual list items */
+  margin-right: 2rem;
+}
+
+.banner-pic .container .headline span {
+  color: black;
+  padding: 1.5rem 5rem;
+  background-color: white;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.2rem;
+  position: relative;
+  top: 16rem;
+  left: 21rem;
+}
+
+/* services section */
+
+.services .container
+ {
+  display: flex;
+  margin-top: 3rem;
+  justify-content: space-around;
+}
+
+.services .container .item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.services .container .item img {
+  width: 3 rem;
+  height: auto;
+}
+
+.services .container .item span {
+  margin-top: 2rem;
+}
+
+/* logistics */
+
+.logistics .container {
+  display: flex;
+  margin-top: 3rem;
+  justify-content: space-around;
+  margin-bottom: 5rem;
+}
+
+.logistics .container h3 {
+  color: white;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1.25rem;
+  background-color: cadetblue;
+  font-weight: bold;
+  font-size: 1rem;
+  line-height: 1.2rem;
+  width: 10rem;
+  margin-bottom: 1rem;
+}
+
+.logistics .container p {
+  width: 20rem;
+}
+
+/* footer */
+
+.footer .container {
+  background-color: azure;
+  margin-top: 4rem;
+  color: black;
+  padding-bottom: 4rem;
+  display: flex;
+  align-items: center;
+
+}
+
+.footer .container img {
+  padding-right: 1rem;
+  padding-left: 2rem;
+  padding-top: 2rem;
+}
+
+.footer .container span {
+  padding-top: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* site container sytling */
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
